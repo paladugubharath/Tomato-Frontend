@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs 'NodeJS20'
+    }
+
     environment {
         DOCKER_IMAGE = "food-del-app"
         CONTAINER_NAME = "food-del-container"

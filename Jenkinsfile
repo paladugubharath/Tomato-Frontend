@@ -5,11 +5,11 @@ pipeline {
         nodejs 'NodeJS20'
     }
 
-    environment {
-        DOCKER_IMAGE = "food-del-app"
-        CONTAINER_NAME = "food-del-container"
-        PORT = "80"
-    }
+   environment {
+    DOCKER_IMAGE = "paladugu0408/food-del-app"
+    CONTAINER_NAME = "food-del-container"
+    PORT = "80"
+}
 
     stages {
 
